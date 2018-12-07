@@ -20,6 +20,8 @@ Usage
 -----
 
 Pass the node a process value in **msg.payload** at regular intervals and configure (or pass in via a message) a setpoint and tuning parameters and the algorithm will generate a required power output between 0 and 1 in **msg.payload** using a Proportional+Integral+Derivative algorithm.
+
+    zkusim tady neco
     
 Any message received with a **msg.topic** other than those defined below is assumed to contain the current process value in **msg.payload** and the control algorithm will be run, passing on the required power in **msg.payload**.
 
