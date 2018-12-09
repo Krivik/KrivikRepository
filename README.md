@@ -17,6 +17,7 @@ To install the UniPi nodes use the `Menu - Manage palette` option and search for
     npm i node-red-contrib-unipi
 
 ## Usage
+#### Basic information
 Once you installed `node-red-contrib-unipi` into your Node-RED you have two nodes for use.
 
    - **UniPi input** node - primary a filter for UniPi data gets from the relevant websocket. Helps to easily access the needed data and work with them throw the flow/s.
