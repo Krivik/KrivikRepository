@@ -19,8 +19,8 @@ To install the UniPi nodes use the `Menu - Manage palette` option and search for
 ## Usage
 Once you installed `node-red-contrib-unipi` into your NODE-RED you have two nodes for use.
 
-    - **UniPi input** node - primary a filter for UniPi data gets from the relevant websocket. Helps to easily access the needed data and work with them throw the flow/s.
-    - **UniPi output** node - primary helps to see the all data by the request, filter the choosen data or to set the features like relay 
+   - **UniPi input** node - primary a filter for UniPi data gets from the relevant websocket. Helps to easily access the needed data and work with them throw the flow/s.
+   - **UniPi output** node - primary helps to see the all data by the request, filter the choosen data or to set the features like relay 
 ### Preparation
 
 
