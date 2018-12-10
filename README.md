@@ -4,7 +4,7 @@ Níže bude README file pro:
 # node-red-contrib-unipi
 This module provides two nodes in Node-RED to quickly access the UniPi device. For more information about UniPi devices see <a href="https://www.unipi.technology/">here</a>.
 
-For connection of the node with the UniPi device is required to install on the UniPi device the EVOK utility in version 2.0 or higher. See <a href="https://github.com/UniPiTechnology/evok">UniPi GitHub</a> for more information.
+For connection of the node with the UniPi device is required to install on the UniPi device the EVOK utility in version 2.0 or higher. See <a href="https://github.com/UniPiTechnology/evok">UniPi GitHub</a> or <a href="https://www.unipi.technology/cs/content/evok-18">UniPi EVOK</a> for more information.
 
 For connection - node and the UniPi device - use the websocket node which is set as `connect to` on the adress ws://[adress of the UniPi device]/ws.
 
@@ -19,12 +19,17 @@ To install the UniPi nodes use the `Menu - Manage palette` option and search for
     npm i node-red-contrib-unipi
 
 ## Usage
+
 #### Basic information
-Once you installed `node-red-contrib-unipi` into your Node-RED you have two nodes for use.
+Once one installed `node-red-contrib-unipi` into Node-RED there are two nodes for use.
 
    - **UniPi input** node - primary a filter for UniPi data which are get from the relevant websocket. Helps to easily access the needed data and work with them throw the flow/s.
    - **UniPi output** node - primary helps to see the ***all*** data by the request, ***filter*** the choosen data or to ***set*** the features *relay*, *digital output* and *led* -> to switch ON/OFF or set *analog output* to desired value. 
 #### Preparation
+Once one has already bought the UniPi device make oneself sure that the <a href="https://www.unipi.technology/cs/content/evok-18">EVOK</a> is installed on one's device.
+
+Once one has ***UniPi Control Panel*** (which is the enviroment of the EVOK utility in your browser) active then the first needed step is done. Copy the adress from the console (the form is e.g. *78.230.110.45:8080*) and paste it to the websocket node in form ws://[adress of the UniPi device]/ws (with the previous example of the adress it looks like: ws://78.230.110.45:8080/ws) and set the websocket node as ***connect to***.
+
 
 
 
