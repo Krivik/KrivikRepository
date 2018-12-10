@@ -6,6 +6,8 @@ This module provides two nodes in Node-RED to quickly access the UniPi device. F
 
 For connection of the node with the UniPi device is required to install on the UniPi device the EVOK utility in version 2.0 or higher. See <a href="https://github.com/UniPiTechnology/evok">UniPi GitHub</a> for more information.
 
+For connection - node and the UniPi device - use the websocket node which is set as `connect to` on the adress ws://[adress of the UniPi device]/ws.
+
 ## Pre-requisites
 
 The Node-RED-Dashboard requires <a href="https://nodered.org">Node-RED</a> to be installed.
