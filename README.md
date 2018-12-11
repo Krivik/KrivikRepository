@@ -16,7 +16,7 @@ The Node-RED-Dashboard requires <a href="https://nodered.org">Node-RED</a> to be
 
 To install the UniPi nodes use the `Menu - Manage palette` option and search for `node-red-contrib-unipi`, or run the following command in your Node-RED user directory (typically `~/.node-red`):
 
-    npm i node-red-contrib-unipi
+    npm install node-red-contrib-unipi
 
 ## Usage
 
